@@ -1,7 +1,7 @@
 {
-  "name": "angular-uploadBtn",
-  "version": "0.1.1",
-  "description": "An angular js directive for uploading files",
+  "name": "angular-upload-button",
+  "version": "0.1.5",
+  "description": "Forked by https://github.com/twilson63/angular-uploadBtn",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

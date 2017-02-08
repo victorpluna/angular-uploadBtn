@@ -34,6 +34,14 @@ angular.module('upload.button', [])
             });
           }, false);
           xhr.open("POST", attrs.action);
+
+          var headers = JSON.parse(attrs.headers);
+          for (var key in headers) {
+            if (headers.hasOwnProperty(key)) {
+              xhr.setRequestHeader(key, headers[key]); //settings headers
+            }
+          }
+
           xhr.send(fd);
         });
       }

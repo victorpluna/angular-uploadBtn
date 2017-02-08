@@ -13,6 +13,7 @@ set to the complete attribute.
 ```
 <upload-button
   action="api/file"
+  headers="{Authorization: 'Token'}"
   complete="uploaded($data, $status)">
   Upload File
 </upload-button>
